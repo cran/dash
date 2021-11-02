@@ -36,9 +36,9 @@
                                                     all_files = FALSE),
                                                class = "html_dependency"),
                         `dash-renderer-dev` = structure(list(name = "dash-renderer",
-                                                         version = "1.4.1",
-                                                         src = list(href = "https://unpkg.com/dash-renderer@1.4.1",
-                                                                    file = "lib/dash-renderer@1.4.1"),
+                                                         version = "1.8.3",
+                                                         src = list(href = "https://unpkg.com/dash-renderer@1.8.3",
+                                                                    file = "lib/dash-renderer@1.8.3"),
                                                          meta = NULL,
                                                          script = "dash-renderer/dash_renderer.dev.js",
                                                          stylesheet = NULL,
@@ -47,36 +47,12 @@
                                                          package = "dash",
                                                          all_files = FALSE),
                                                     class = "html_dependency"),
-                        `dash-renderer-map-dev` = structure(list(name = "dash-renderer",
-                                                         version = "1.4.1",
-                                                         src = list(href = "https://unpkg.com/dash-renderer@1.4.1",
-                                                                    file = "lib/dash-renderer@1.4.1"),
-                                                         meta = NULL,
-                                                         script = "dash-renderer/dash_renderer.dev.js.map",
-                                                         stylesheet = NULL,
-                                                         head = NULL,
-                                                         attachment = NULL,
-                                                         package = "dash",
-                                                         all_files = FALSE),
-                                                    class = "html_dependency"),
                         `dash-renderer-prod` = structure(list(name = "dash-renderer",
-                                                         version = "1.4.1",
-                                                         src = list(href = "https://unpkg.com/dash-renderer@1.4.1",
-                                                                    file = "lib/dash-renderer@1.4.1"),
+                                                         version = "1.8.3",
+                                                         src = list(href = "https://unpkg.com/dash-renderer@1.8.3",
+                                                                    file = "lib/dash-renderer@1.8.3"),
                                                          meta = NULL,
                                                          script = "dash-renderer/dash_renderer.min.js",
-                                                         stylesheet = NULL,
-                                                         head = NULL,
-                                                         attachment = NULL,
-                                                         package = "dash",
-                                                         all_files = FALSE),
-                                                    class = "html_dependency"),
-                        `dash-renderer-map-prod` = structure(list(name = "dash-renderer",
-                                                         version = "1.4.1",
-                                                         src = list(href = "https://unpkg.com/dash-renderer@1.4.1",
-                                                                    file = "lib/dash-renderer@1.4.1"),
-                                                         meta = NULL,
-                                                         script = "dash-renderer/dash_renderer.min.js.map",
                                                          stylesheet = NULL,
                                                          head = NULL,
                                                          attachment = NULL,
@@ -110,3 +86,142 @@
                         )
   return(deps_metadata)
 }
+
+.dashCoreComponents_js_metadata <- function() {
+deps_metadata <- list(`dash_core_components` = structure(list(name = "dash_core_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dcc/async-datepicker.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = TRUE), class = "html_dependency"),
+`dash_core_components` = structure(list(name = "dash_core_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dcc/async-dropdown.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = TRUE), class = "html_dependency"),
+`dash_core_components` = structure(list(name = "dash_core_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dcc/async-graph.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = TRUE), class = "html_dependency"),
+`dash_core_components` = structure(list(name = "dash_core_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dcc/async-highlight.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = TRUE), class = "html_dependency"),
+`dash_core_components` = structure(list(name = "dash_core_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dcc/async-markdown.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = TRUE), class = "html_dependency"),
+`dash_core_components` = structure(list(name = "dash_core_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dcc/async-slider.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = TRUE), class = "html_dependency"),
+`dash_core_components` = structure(list(name = "dash_core_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dcc/async-upload.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = TRUE), class = "html_dependency"),
+`dash_core_components` = structure(list(name = "dash_core_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dcc/dash_core_components.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE), class = "html_dependency"),
+`dash_core_components` = structure(list(name = "dash_core_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dcc/dash_core_components-shared.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE), class = "html_dependency"),
+`dash_core_components` = structure(list(name = "dash_core_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dcc/plotly.min.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = 'eager'), class = "html_dependency"),
+`dash_core_components` = structure(list(name = "dash_core_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dcc/async-plotlyjs.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = 'lazy'), class = "html_dependency"))
+return(deps_metadata)
+}
+
+
+.dashHtmlComponents_js_metadata <- function() {
+deps_metadata <- list(`dash_html_components` = structure(list(name = "dash_html_components",
+version = "2.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'html/dash_html_components.min.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE), class = "html_dependency"))
+return(deps_metadata)
+}
+
+dash_assert_valid_wildcards <- function (attrib = list("data", "aria"), ...)
+{
+    args <- list(...)
+    validation_results <- lapply(names(args), function(x) {
+        grepl(paste0("^(", paste0(attrib, collapse="|"), ")-[a-zA-Z0-9_-]+$"),
+            x)
+    })
+    if (FALSE %in% validation_results) {
+        stop(sprintf("The following props are not valid in this component: '%s'",
+            paste(names(args)[grepl(FALSE, unlist(validation_results))],
+                collapse = ", ")), call. = FALSE)
+    }
+    else {
+        return(args)
+    }
+}
+
+
+.dashTable_js_metadata <- function() {
+deps_metadata <- list(`dash_table` = structure(list(name = "dash_table",
+version = "5.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dash_table/async-export.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = TRUE), class = "html_dependency"),
+`dash_table` = structure(list(name = "dash_table",
+version = "5.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dash_table/async-table.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = TRUE), class = "html_dependency"),
+`dash_table` = structure(list(name = "dash_table",
+version = "5.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dash_table/async-highlight.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE, async = TRUE), class = "html_dependency"),
+`dash_table` = structure(list(name = "dash_table",
+version = "5.0.0", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = 'dash_table/bundle.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE), class = "html_dependency"))
+return(deps_metadata)
+}
+
+
+.dashBootstrapComponents_js_metadata <- function() {
+deps_metadata <- list(`dash_bootstrap_components` = structure(list(name = "dash_bootstrap_components",
+version = "1.0.0-dev", src = list(href = NULL,
+file = "deps"), meta = NULL,
+script = '_components/dash_bootstrap_components.min.js',
+stylesheet = NULL, head = NULL, attachment = NULL, package = "dash",
+all_files = FALSE), class = "html_dependency"))
+return(deps_metadata)
+}
+
