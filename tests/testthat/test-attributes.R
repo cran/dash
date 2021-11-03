@@ -30,7 +30,7 @@ test_that("stylesheets can be added with or without attributes", {
   )
 
   # start up Dash briefly to generate the index
-  app$run_server(block=FALSE)
+  app$run_server(block=FALSE, port=httpuv::randomPort(min = 1024L, max = 49151L, host = "0.0.0.0", n = 20))
   app$server$stop()
 
   response_with_attributes <- app$server$test_request(request_with_attributes)
@@ -80,7 +80,7 @@ test_that("stylesheets can be added with or without attributes", {
   )
 
   # start up Dash briefly to generate the index
-  app$run_server(block=FALSE)
+  app$run_server(block=FALSE, port=httpuv::randomPort(min = 1024L, max = 49151L, host = "0.0.0.0", n = 20))
   app$server$stop()
 
   response_with_attributes <- app$server$test_request(request_with_attributes)
@@ -253,7 +253,7 @@ test_that("stylesheet can be passed as a simple list", {
   )
 
   # start up Dash briefly to generate the index
-  app$run_server(block=FALSE)
+  app$run_server(block=FALSE, port=httpuv::randomPort(min = 1024L, max = 49151L, host = "0.0.0.0", n = 20))
   app$server$stop()
 
   response_with_attributes <- app$server$test_request(request_with_attributes)
@@ -341,7 +341,7 @@ test_that("default favicon resource is supplied when none is present in assets",
   )
 
   # start up Dash briefly to generate the index
-  app$run_server(block=FALSE)
+  app$run_server(block=FALSE, port=httpuv::randomPort(min = 1024L, max = 49151L, host = "0.0.0.0", n = 20))
   app$server$stop()
 
   response_with_attributes <- app$server$test_request(request_with_attributes)

@@ -23,7 +23,7 @@ test_that("URLs are properly redirected with app$redirect", {
  )
 
  # start up Dash briefly to load the routes
- app$run_server(block=FALSE)
+ app$run_server(block=FALSE, port=httpuv::randomPort(min = 1024L, max = 49151L, host = "0.0.0.0", n = 20))
  app$server$stop()
 
  response_foo <- app$server$test_request(request_foo)
@@ -91,7 +91,7 @@ test_that("temporary redirection of URLs is possible with app$server_route", {
  )
 
  # start up Dash briefly to load the routes
- app$run_server(block=FALSE)
+ app$run_server(block=FALSE, port=httpuv::randomPort(min = 1024L, max = 49151L, host = "0.0.0.0", n = 20))
  app$server$stop()
 
  response_baz <- app$server$test_request(request_baz)
